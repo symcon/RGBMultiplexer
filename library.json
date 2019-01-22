@@ -1,0 +1,12 @@
+{
+	"id": "{82C2A44E-A481-41A2-821E-CAF02007D688}",
+	"author": "Symcon GmbH",
+	"name": "RGBMultiplexer",
+	"url": "www.symcon.de",
+	"compatibility": {
+		"version": "4.2"
+	},
+	"version": "1.0",
+	"build": 0,
+	"date": 0
+}
