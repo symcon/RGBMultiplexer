@@ -10,5 +10,6 @@
 	"parentRequirements": [],
 	"childRequirements": [],
 	"implemented": [],
-	"prefix": "RGBM"
+	"prefix": "RGBM",
+	"url": "https://github.com/symcon/RGBMultiplexer/tree/master/RGBMultiplexer"
 }
