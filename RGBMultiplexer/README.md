@@ -1,6 +1,6 @@
 # RGB-Multiplexer
 
-### Inhaltverzeichnis
+### Inhaltsverzeichnis
 
 1. [Funktionsumfang](#1-funktionsumfang)
 2. [Voraussetzungen](#2-voraussetzungen)
@@ -17,17 +17,17 @@
 
 ### 2. Voraussetzungen
 
-- IP-Symcon ab Version 4.x
+- IP-Symcon ab Version 4.2
 
 ### 3. Software-Installation
 
 * Über den Modul Store das Modul RGB-Multiplexer installieren.
 * Alternativ über das Modul Control folgende URL hinzufügen:
-´https://github.com/symcon/RGBMultiplexer`  
+`https://github.com/symcon/RGBMultiplexer`  
 
 ### 4. Einrichten der Instanzen in IP-Symcon
 
-- Unter "Instanz hinzufügen" ist das 'RGB Multiplexer'-Modul unter dem Hersteller '(Sonstige)' aufgeführt.  
+- Unter "Instanz hinzufügen" ist das 'RGB Multiplexer'-Modul unter dem Hersteller '(Gerät)' aufgeführt.  
 
 __Konfigurationsseite__:
 
