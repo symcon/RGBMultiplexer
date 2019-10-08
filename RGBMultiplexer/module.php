@@ -31,14 +31,22 @@ if (!defined('IPS_BASE')) {
             //Never delete this line!
             parent::ApplyChanges();
 
+            //Deleting all refererences in order to readd them
+            foreach ($this->GetReferenceList() as $referenceID) {
+                $this->UnregisterReference($referenceID);
+            }
+
             if ($this->ReadPropertyInteger('SourceVariableR') > 0) {
                 $this->RegisterMessage($this->ReadPropertyInteger('SourceVariableR'), VM_UPDATE);
+                $this->RegisterReference($this->ReadPropertyInteger('SourceVariableR'));
             }
             if ($this->ReadPropertyInteger('SourceVariableG') > 0) {
                 $this->RegisterMessage($this->ReadPropertyInteger('SourceVariableG'), VM_UPDATE);
+                $this->RegisterReference($this->ReadPropertyInteger('SourceVariableG'));
             }
             if ($this->ReadPropertyInteger('SourceVariableB') > 0) {
                 $this->RegisterMessage($this->ReadPropertyInteger('SourceVariableB'), VM_UPDATE);
+                $this->RegisterReference($this->ReadPropertyInteger('SourceVariableB'));
             }
         }
 
