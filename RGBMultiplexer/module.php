@@ -36,6 +36,13 @@ if (!defined('IPS_BASE')) {
                 $this->UnregisterReference($referenceID);
             }
 
+            //Delete all registrations in order to readd them
+            foreach ($this->GetMessageList() as $senderID => $messages) {
+                foreach ($messages as $message) {
+                    $this->UnregisterMessage($senderID, $message);
+                }
+            }
+
             if ($this->ReadPropertyInteger('SourceVariableR') > 0) {
                 $this->RegisterMessage($this->ReadPropertyInteger('SourceVariableR'), VM_UPDATE);
                 $this->RegisterReference($this->ReadPropertyInteger('SourceVariableR'));
