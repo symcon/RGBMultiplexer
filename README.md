@@ -6,5 +6,5 @@
 
 Folgende Module beinhaltet das RGBMultiplexer Repository:
 
-- __RGB-Multiplexer__ ([Dokumentation](RGBMultiplexer))  
+- __RGB-Multiplexer__ ([Dokumentation](https://www.symcon.de/de/service/dokumentation/modulreferenz/rgbmultiplexer))  
 	Verbindet einzelne R, G, B Kanäle zu einer Variable, welche mit dem Farbrad angesteuert werden kann.
