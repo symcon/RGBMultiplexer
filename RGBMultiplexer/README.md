@@ -1,5 +1,5 @@
 # RGB-Multiplexer
 
-[Link zur deutschen Dokumentation](https://www.symcon.de/de/service/dokumentation/modulreferenz/rgbmultiplexer/)
+[Link zur deutschen Dokumentation](https://www.symcon.de/de/service/dokumentation/modulreferenz/logiken/schleppzeiger/)
 
-[Link to the english documentation](https://www.symcon.de/en/service/documentation/module-reference/rgbmultiplexer/)
+[Link to the english documentation](https://www.symcon.de/en/service/documentation/module-reference/logic/dragpointer/)
